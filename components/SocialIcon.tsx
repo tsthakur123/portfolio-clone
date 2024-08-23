@@ -46,7 +46,7 @@ const SocialIcon: React.FC<iconProps> = ({ isDarkMode }) => {
           alt={icon.altText}                      // Alt text for each icon
           width={30}                              // Width of the icon
           height={30}                             // Height of the icon
-          className="reveal cursor-pointer hover:scale-150 transition-all"       // Styling and cursor for the icon
+          className="revealIcon opacity-0 scale-0 cursor-pointer transition-all"       // Styling and cursor for the icon
         />
       ))}
     </>

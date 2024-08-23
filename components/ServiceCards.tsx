@@ -36,7 +36,7 @@ const ServiceCards = () => {
   return (
     <div className="grid grid-cols-1 sm:grid-cols-2 lg:grid-cols-4 gap-8">
       {serviceCardData.map((data) => (
-        <div key={data.id} className="flex justify-center">
+        <div key={data.id} className="cardReveal flex justify-center">
           <Card
             title={data.title}
             content={data.content}
